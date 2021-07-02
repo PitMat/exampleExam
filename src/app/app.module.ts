@@ -3,6 +3,10 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import {CommonModule} from '@angular/common';
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+import {FormsModule, ReactiveFormsModule} from '@angular/forms';
+import {MoutainComponent} from './moutain/moutain/moutain.component';
 
 @NgModule({
   declarations: [
@@ -10,9 +14,13 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    CommonModule,
+    NgbModule,
+    ReactiveFormsModule,
+    FormsModule
   ],
-  providers: [],
+  providers: [MoutainComponent],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
