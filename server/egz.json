@@ -41,6 +41,13 @@
       "description": "dsfsdfsdf",
       "url": "pl.wikipedia.org",
       "id": "_1wkkj38uc"
+    },
+    {
+      "name": "Krakow",
+      "location": "21.0122, 13.23456",
+      "description": "Kraków test",
+      "url": "https://en.wikipedia.org/wiki/",
+      "id": "_8raw6wea7"
     }
   ]
 }
