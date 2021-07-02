@@ -22,13 +22,6 @@
       "url": "https://pl.wikipedia.org/wiki/Londyn"
     },
     {
-      "name": "Turbacz",
-      "location": "12.45677, 145.122345",
-      "description": "test",
-      "url": "https://en.wikipedia.org/wiki/Jastarnia",
-      "id": "_3bh4inzbx"
-    },
-    {
       "name": "Trzy korony",
       "location": "a21,4566, 23,7890",
       "description": "Kraków test",
@@ -36,11 +29,18 @@
       "id": "_rrepxdd9l"
     },
     {
-      "name": "Sokolica",
+      "name": "Sokolicag",
       "location": "21.0122, 13.23456",
       "description": "Kraków test",
       "url": "https://en.wikipedia.org/wiki/",
       "id": "_81kq738ds"
+    },
+    {
+      "name": "fxfvdfgdfg",
+      "location": "23.2344, 23.4234",
+      "description": "dsfsdfsdf",
+      "url": "pl.wikipedia.org",
+      "id": "_1wkkj38uc"
     }
   ]
 }
