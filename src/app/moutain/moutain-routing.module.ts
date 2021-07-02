@@ -3,7 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import {MoutainComponent} from './moutain/moutain.component';
 
 const routes: Routes = [
-  {path: '', component: MoutainComponent}
+  {path: '', component: MoutainComponent},
 ];
 
 @NgModule({

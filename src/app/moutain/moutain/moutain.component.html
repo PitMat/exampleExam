@@ -1,0 +1,23 @@
+<div class="list-row" *ngIf="moutains">
+  <div class="col-md-6">
+    <h4>Cities list</h4>
+    <ul class="list-group">
+      <li class="list-group-item" *ngFor="let moutain of moutains; let i = index"
+          [class.active]="i===currentIndex">
+        {{moutain.name}}
+        <button class="btn btn-outline-success" type="button" (click)="open(moutain)">
+          Detail
+        </button>
+        <button class="btn btn-outline-info" (click)="editObject(moutain)">
+          Edit
+        </button>
+        <button class="btn btn-outline-danger " (click)="deleteMoutain(moutain.id)">Delete</button>
+      </li>
+    </ul>
+    <button class="btn btn-outline-success " (click)="newObject()">Add new</button>
+  </div>
+
+  <div *ngIf="!moutains">
+    <p>Please click on a City</p>
+  </div>
+</div>
